@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.logo {
+    flex: 20%;
+    margin-left: 10%;
+    /* border: 1px solid red; */
+    text-align: left;
+
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    color: #180f4A;
+    font-size: 34px;
+}
+
+.menu {
+    flex: 70%;
+    /* border: 1px solid yellow; */
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #180f4A;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #FF2978;
+    border-top: 4px solid #180f4A;
+}
+
+#botao {
+    background: #180f4A;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #FF2978;
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding-top: 100px;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180f4A;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #180f4A;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+#sec1 {
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    /* width: 90%; */
+}
+
+#sec1 h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 4%;
+    margin: 1%;
+    border: 2px solid #FF2978;
+    border-radius: 10px;
+    /* cursor: pointer; */
+    /* height: 350px; */
+}
+
+/* .card:hover {
+    background: #180f4A;
+    color: white;
+} */
+
+footer {
+    margin-top: 100px;
+    height: 420px;
+    background-image: linear-gradient(180deg, #180f4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+.nome-rodape {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+footer p {
+    color: white;
+}
+
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    opacity: 0.4;
+}
+
+.whats:hover {
+    opacity: 1;
+}
+
+#quemsou {
+    display: block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+#quemsou h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+#quemsou h3 {
+    width: 100%;
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+.aboutme {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    /* border: 1px solid black; */
+}
+
+.minha-foto {
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    flex: 40%;
+}
+
+.minha-foto img {
+    width: 60%;
+}
+
+.minha-bio {
+    margin-top: 80px;
+    margin-right: 5%;
+    margin-left: 5%;
+    flex: 40%;
+    border: 2px solid #FF2978;
+    border-radius: 20px;
+    height: 100%;
+    /* cursor: pointer; */
+}
+
+.minha-bio img {
+    width: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    ;
+}
+
+.minha-bio p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* .minha-bio:hover {
+    background: #180f4A;
+    color: white;
+} */
+
+.registro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid #FF2978;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.carteira {
+    margin: 20px;
+    /* border: 1px solid red; */
+    /* margin-right: 10%; */
+}
+
+.carteira img {
+    height: 200px;
+}
+
+.dados {
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+
+#songs {
+    padding-top: 60px;
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 2px solid #FF2978; */
+    /* border-radius: 20px; */
+    background: rgb(219, 219, 255);
+    padding-bottom: 6%;
+    border: 2px solid #180f4A;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+#songs h1 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 30px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+#songs h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+}
+
+.songbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-card {
+    flex: 20%;
+    z-index: 1;
+    /* border: 2px solid #FF2978; */
+}
+
+.verletra-btn {
+    padding: 10px;
+    /* border: 2px solid black; */
+    background: #FF2978;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.verletra-btn:hover {
+    background: #180f4A;
+}
+
+#contato {
+    padding-top: 10%;
+    display: block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contato h1 {
+    width: 100%;
+    font-size: 50px;
+    padding-bottom: 80px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    color: #180f4A;
+}
+
+.contact-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.redes-sociais {
+    flex: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    /* height: 400px; */
+    border: 2px solid #FF2978;
+    border-radius: 30px;
+}
+
+.redes-sociais img {
+    padding: 10px;
+}
+
+.redes-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .redes-sociais:hover {
+    background: #180f4A;
+} */
+
+.redes {
+    flex: 30%;
+    padding: 1%;
+    padding-top: 50px;
+}

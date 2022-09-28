@@ -1,0 +1,89 @@
+@media screen and (max-width:1150px) {
+    .navbar {
+        position: relative;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 20px;
+    }
+
+    .headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .headline p {
+        text-align: center;
+    }
+
+    .img-headline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .whats {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .minha-foto img {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .minha-bio {
+        flex: 100%;
+    }
+
+    .minha-bio img {
+        width: 20%;
+    }
+
+    .song-card {
+        flex: 100%;
+    }
+
+    .email-form {
+        flex: 100%;
+    }
+
+    .redes-sociais {
+        flex: 100%;
+        margin: 0;
+    }
+
+    .redes {
+        flex: 100%;
+    }
+
+    .registro {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .carteira {
+        /* margin: 0; */
+        margin-right: 0;
+        margin: 20px;
+        /* border: 1px solid black; */
+    }
+
+    .carteira img {
+        width: 100%;
+    }
+}
